@@ -95,7 +95,7 @@ etiquetaListaDivi db 10,13, "4. Division        (A/B)     = $"
 etiquetaListARaiz db 10,13, "5. Raices          (A^(1/2)) = $"
 etiquetaListBRaiz db 10,13, "6. Raices          (B^(1/2)) = $"
 etiquetaListAFact db 10,13, "7. Factoriales     (A!)      = $"
-etiquetaListaBFact db 10,13, "8. Factoriales     (B!)      = $"
+etiquetaListBFact db 10,13, "8. Factoriales     (B!)      = $"
 
 ValorA db 0
 ValorB db 0
