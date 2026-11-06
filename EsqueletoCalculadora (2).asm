@@ -92,10 +92,10 @@ etiquetaListaSuma db 10,13, "1. Suma            (A+B)     = $"
 etiquetaListaRest db 10,13, "2. Resta           (A-B)     = $"
 etiquetaListaMult db 10,13, "3. Multiplicacion  (A*B)     = $"
 etiquetaListaDivi db 10,13, "4. Division        (A/B)     = $"
-etiquetaListaRaiz db 10,13, "5. Raices          (A^(1/2)) = $"
-etiquetaListaRaiz db 10,13, "6. Raices          (B^(1/2)) = $"
-etiquetaListaFact db 10,13, "7. Factoriales     (A!)      = $"
-etiquetaListaFact db 10,13, "8. Factoriales     (B!)      = $"
+etiquetaListARaiz db 10,13, "5. Raices          (A^(1/2)) = $"
+etiquetaListBRaiz db 10,13, "6. Raices          (B^(1/2)) = $"
+etiquetaListAFact db 10,13, "7. Factoriales     (A!)      = $"
+etiquetaListaBFact db 10,13, "8. Factoriales     (B!)      = $"
 
 ValorA db 0
 ValorB db 0
