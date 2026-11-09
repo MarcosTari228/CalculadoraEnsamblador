@@ -74,7 +74,6 @@ lea dx, etiquetaListaDivi
 mov ah, 09h
 int 21h
 
-; Cadena "5. Raices" ----------------------------------------------------
 
   
   
@@ -101,6 +100,8 @@ int 21h
 ;	13	169	A9
 ;	14	196	C4
 ;	15	225	E1
+
+; Cadena "5. Raices" ----------------------------------------------------
 
 ; Raiz de A
 lea dx, etiquetaListARaiz
@@ -158,15 +159,15 @@ CMP ValorA, 90h
 JB imprimirRaizA
 
 MOV BL, 12
-CMP ValorA, A9h
+CMP ValorA, 0A9h
 JB imprimirRaizA
 
 MOV BL, 13
-CMP ValorA, C4h
+CMP ValorA, 0C4h
 JB imprimirRaizA
 
 MOV BL, 14
-CMP ValorA, E1h
+CMP ValorA, 0E1h
 JB imprimirRaizA
 
 MOV BL, 15
@@ -246,15 +247,15 @@ CMP ValorB, 90h
 JB imprimirRaizB
 
 MOV BL, 12
-CMP ValorB, A9h
+CMP ValorB, 0A9h
 JB imprimirRaizB
 
 MOV BL, 13
-CMP ValorB, C4h
+CMP ValorB, 0C4h
 JB imprimirRaizB
 
 MOV BL, 14
-CMP ValorB, E1h
+CMP ValorB, 0E1h
 JB imprimirRaizB
 
 MOV BL, 15
