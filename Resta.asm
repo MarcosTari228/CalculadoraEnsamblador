@@ -188,7 +188,7 @@ jmp fin
 etiquetaError db 13,10, "Error: El primer numero debe ser mayor o igual que el segundo.$"
 
 
-
+;Resultados
 
 
 etiquetaResultado db 13,10, "Resultado de la resta: $"
